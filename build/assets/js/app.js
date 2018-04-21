@@ -1,1 +1,1 @@
-window.sr=ScrollReveal();
+document.addEventListener("DOMContentLoaded",function(){var e=document.getElementById("wrapper"),t=e.querySelector(".top"),n=e.querySelector(".handle"),d=0,l=0;-1!=e.className.indexOf("skewed")&&(d=1e3),e.addEventListener("mousemove",function(e){l=.5*(e.clientX-window.innerWidth/2),n.style.left=e.clientX+l+"px",t.style.width=e.clientX+d+l+"px"})}),window.sr=ScrollReveal();

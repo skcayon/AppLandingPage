@@ -1,10 +1,11 @@
 #header
   background: url("../img/hero-bg.jpg")no-repeat
   background-size: cover
-  height: 800px
+  height: 700px
+  //max-height: 55vw
   color: white
   text-align: center
-  overflow: auto
+  overflow: hidden
 
   img
     max-width: 500px
@@ -16,6 +17,86 @@
   h1
     margin-bottom: 10px
     color: white
+#wrapper
+  position: relative
+  width: 100%
+  min-height: 55vw
+  overflow: hidden
+
+.layer
+  position: absolute
+  width: 100vw
+  min-height: 55vw
+  overflow: hidden
+
+  .content-wrap
+    position: absolute
+    width: 100vw
+    min-height: 55vw
+
+  .content-body
+    width: 25%
+    position: absolute
+    top: 50%
+    text-align: center
+    transform: translateY(-50%)
+    color: white
+
+  img
+    position: absolute
+    width: 35%
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+
+  h1
+    font-size: 2em
+
+.bottom
+  background: #222
+  z-index: 1
+
+  .content-body
+    right: 5%
+  h1
+    color: orange
+.top
+  background: #eee
+  color: black
+  z-index: 2
+  width: 50vw
+
+  .content-body
+    left: 5%
+    color: black
+
+.handle
+  position: absolute
+  height: 100%
+  display: block
+  background-color: yellow
+  width: 5px
+  top: 0
+  left: 50%
+  z-index: 3
+
+.skewed
+  .handle
+    top: 50%
+    transform: rotate(30deg) translateY(-50%)
+    height: 200%
+    transform-origin: top
+
+  .top
+    transform: skew(-30deg)
+    margin-left: -1000px
+    width: calc(50vw + 1000px)
+
+    .content-wrap
+      transform: skew(30deg)
+      margin-left: 1000px
+
+
 
 
 .main-nav
@@ -46,3 +127,9 @@ a.download
   color: $ocean
   box-shadow: 0 12px 10px -10px rgba(0,0,0,0.2)
   margin-left: 25px
+
+
+// media query
+@media (max-width:768px)
+  body
+    font-size: 75%
