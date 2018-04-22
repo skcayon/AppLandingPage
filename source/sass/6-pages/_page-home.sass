@@ -1,5 +1,7 @@
+body, html
+  height: 100%
 #header
-  background: url("../img/hero-bg.jpg")no-repeat
+  //background: url("../img/hero-bg.jpg")no-repeat
   background-size: cover
   height: 700px
   //max-height: 55vw
@@ -17,6 +19,11 @@
   h1
     margin-bottom: 10px
     color: white
+
+//end of header
+h1
+ font-size: 2.5em
+
 #wrapper
   position: relative
   width: 100%
@@ -51,7 +58,7 @@
 
   h1
     font-size: 2em
-
+//end of wrapper
 .bottom
   background: #222
   z-index: 1
@@ -128,8 +135,61 @@ a.download
   box-shadow: 0 12px 10px -10px rgba(0,0,0,0.2)
   margin-left: 25px
 
+.pimg1, .pimg2, .pimg3
+   position: relative
+   opacity: 0.70
+   background-position: center
+   background-size: cover
+   background-repeat: no-repeat
+   background-attachment: fixed
+
+.pimg1
+  background-image: url("../img/hero-bg.jpg")
+  min-height: 100%
+
+.pimg2
+  background-image: url("../img/bg2.jpg")
+  min-height: 400px
+
+.pimg3
+  background-image: url("../img/bg3.jpg")
+  min-height: 400px
+
+.section
+  text-align: center
+  padding: 50px 80px
+.section-light
+  background: #f4f4f4
+  color: #666
+
+.section-dark
+  background: #282e34
+  color: #ddd
+  h1
+    color: white
+.ptext
+  position: absolute
+  top: 50%
+  width: 100%
+  text-align: center
+  color: black
+  font-size: 27px
+  letter-spacing: 8px
+  text-transform: uppercase
+
+  .border
+    background-color: #111
+    color: #fff
+    padding: 20px
+
 
 // media query
 @media (max-width:768px)
   body
     font-size: 75%
+
+@media (max-width:568px)
+  body
+    font-size: 65%
+  .pimg1, .pimg2, .pimg3
+    background-attachment: scroll

@@ -23,5 +23,8 @@
         "gulp-uglify": "^3.0.0",
         "scrollreveal": "^3.3.6"
     },
-    "dependencies": {}
+    "dependencies": {
+        "bootstrap": "^4.1.0",
+        "bootstrap-sass": "^3.3.7"
+    }
 }
