@@ -6597,45 +6597,6 @@ hr {
   margin: 10px 0 30px;
   height: 0; }
 
-.flex-video {
-  height: 0;
-  margin-bottom: 0.88889rem;
-  overflow: hidden;
-  padding-bottom: 56%;
-  position: relative; }
-
-.flex-video iframe,
-.flex-video object,
-.flex-video embed,
-.flex-video video {
-  height: 100%;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  left: 0; }
-
-body, html {
-  height: 100%; }
-
-#header {
-  background-size: cover;
-  height: 700px;
-  color: white;
-  text-align: center;
-  overflow: hidden; }
-  #header img {
-    max-width: 500px;
-    width: 100%; }
-  #header article {
-    width: 60%;
-    margin: 0 auto; }
-  #header h1 {
-    margin-bottom: 10px;
-    color: white; }
-
-h1 {
-  font-size: 2.5em; }
-
 #wrapper {
   position: relative;
   width: 100%;
@@ -6707,6 +6668,45 @@ h1 {
   .skewed .top .content-wrap {
     transform: skew(30deg);
     margin-left: 1000px; }
+
+.flex-video {
+  height: 0;
+  margin-bottom: 0.88889rem;
+  overflow: hidden;
+  padding-bottom: 56%;
+  position: relative; }
+
+.flex-video iframe,
+.flex-video object,
+.flex-video embed,
+.flex-video video {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  left: 0; }
+
+body, html {
+  height: 100%; }
+
+#header {
+  background-size: cover;
+  height: 700px;
+  color: white;
+  text-align: center;
+  overflow: hidden; }
+  #header img {
+    max-width: 500px;
+    width: 100%; }
+  #header article {
+    width: 60%;
+    margin: 0 auto; }
+  #header h1 {
+    margin-bottom: 10px;
+    color: white; }
+
+h1 {
+  font-size: 2.5em; }
 
 .main-nav {
   display: flex;
