@@ -6669,6 +6669,49 @@ hr {
     transform: skew(30deg);
     margin-left: 1000px; }
 
+#features {
+  background: #f9f9f9;
+  text-align: center;
+  position: relative;
+  height: 600px; }
+  #features:after {
+    bottom: 0;
+    position: absolute;
+    background: inherit;
+    content: " ";
+    height: 100%;
+    left: 0;
+    right: 0;
+    transform: skewY(-10deg);
+    transform-origin: 100%;
+    z-index: -1; }
+  #features h2 {
+    margin: 80px 0; }
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 30px; }
+
+.feature-card {
+  background: white;
+  padding: 30px;
+  box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.2); }
+  .feature-card h3 {
+    margin: 10px 0 0; }
+  .feature-card img {
+    height: 100px;
+    margin-bottom: 20px; }
+
+.truck {
+  border-top: 3px solid #7FDBFF; }
+
+.shoe {
+  border-top: 3px solid #3D9970; }
+
+.device {
+  border-top: 3px solid #FF851B; }
+
 .flex-video {
   height: 0;
   margin-bottom: 0.88889rem;
@@ -6759,7 +6802,7 @@ a.download {
   padding: 50px 80px; }
 
 .section-light {
-  background: #f4f4f4;
+  background: white;
   color: #666; }
 
 .section-dark {
@@ -6781,6 +6824,20 @@ a.download {
     background-color: #111;
     color: #fff;
     padding: 20px; }
+
+#brands ul {
+  margin: 0;
+  padding: 20px 0;
+  background: white;
+  display: grid;
+  grid-template-columns: repeat(6, auto); }
+  @media only screen and (max-width: 550px) {
+    #brands ul {
+      grid-template-columns: repeat(3, auto); } }
+  #brands ul li {
+    list-style: none; }
+  #brands ul li img {
+    width: 100%; }
 
 @media (max-width: 768px) {
   body {

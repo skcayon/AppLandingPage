@@ -80,7 +80,7 @@ a.download
   text-align: center
   padding: 50px 80px
 .section-light
-  background: #f4f4f4
+  background: white
   color: #666
 
 .section-dark
@@ -102,6 +102,23 @@ a.download
     background-color: #111
     color: #fff
     padding: 20px
+
+#brands ul
+  margin: 0
+  padding: 20px 0
+  background: white
+  display: grid
+  grid-template-columns: repeat(6, auto)
+
+  @media ONLY screen and (max-width: 550px)
+    grid-template-columns: repeat(3, auto)
+
+  li
+    list-style: none
+
+  li img
+    width: 100%
+
 
 
 // media query
