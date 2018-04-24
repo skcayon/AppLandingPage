@@ -1,4 +1,4 @@
-# AppLandingPage
+# WebAppLandingPage
 Web App Landing Page Exercises
 
 1. Clone or download the zip file and extract to your desire folder/directory.
