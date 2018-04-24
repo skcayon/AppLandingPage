@@ -89,3 +89,5 @@ $RECYCLE.BIN/
 
 
 # End of https://www.gitignore.io/api/sass,node,windows
+source/sass/6-pages/_page-home.sass
+source/sass/6-pages/_page-home.sass
