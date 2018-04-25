@@ -5,6 +5,6 @@ Requirements to install
 node.js https://nodejs.org/
 
 1. Clone or download the zip file and extract to your desired folder/directory.
-2. Open Git Bash or CMD | any command lne
+2. Open Git Bash or CMD | any command line
     - TYPE: npm install -g gulp
     - TYPE: npm install

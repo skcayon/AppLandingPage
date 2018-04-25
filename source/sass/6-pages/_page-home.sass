@@ -6,19 +6,22 @@ html
 #header
   //background: url("../img/hero-bg.jpg")no-repeat
   background-size: cover
-  height: 700px
-  //max-height: 55vw
+  height: 100vh
+  max-height: 55vw
   color: white
   text-align: center
   overflow: hidden
 
   img
+    margin-top: 10%
     max-width: 500px
     width: 100%
+    border: solid thin red
 
   article
     width: 60%
-    margin: 0 auto
+    margin: 10% auto
+    
   h1
     margin-bottom: 10px
     color: white
@@ -56,7 +59,7 @@ a.download
   box-shadow: 0 12px 10px -10px rgba(0,0,0,0.2)
   margin-left: 25px
 
-.pimg1, .pimg2, .pimg3
+.pimg1, .pimg2, .pimg3, .pimg4
   position: relative
   opacity: 0.70
   background-position: center
@@ -70,11 +73,15 @@ a.download
   min-height: 100%
 
 .pimg2
-  background-image: url("../img/bg2.jpg")
+  // background-image: url("../img/bg2.jpg")
   min-height: 400px
 
 .pimg3
   background-image: url("../img/bg3.jpg")
+  min-height: 400px
+
+.pimg4
+  background-image: url("../img/bg2.jpg")
   min-height: 400px
 
 .section
