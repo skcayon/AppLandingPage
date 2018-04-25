@@ -6669,83 +6669,6 @@ hr {
     transform: skew(30deg);
     margin-left: 1000px; }
 
-* {
-  box-sizing: border-box; }
-
-body {
-  overflow-x: hidden; }
-
-.v-header {
-  height: 100vh;
-  display: flex;
-  color: #fff;
-  position: relative; }
-
-.wrap {
-  max-width: 960px;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  margin: auto;
-  text-align: center; }
-
-.fullscreen-video-wrap {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden; }
-  .fullscreen-video-wrap video {
-    min-width: 100%;
-    min-height: 100%; }
-
-.header-overlay {
-  width: 100vw;
-  position: relative;
-  top: 0;
-  left: 0;
-  background: #000;
-  opacity: 0.85;
-  z-index: 20; }
-
-.header-content {
-  position: absolute;
-    position-z-index: 40; }
-  .header-content p {
-    display: block;
-    padding-bottom: 2rem;
-    margin-top: 10px; }
-
-.navbar {
-  z-index: 50; }
-
-.cont {
-  border: 1px solid #0074D9;
-  width: 500px;
-  height: 500px; }
-
-.box-1, .box-2, video {
-  width: 100vw;
-  background: #FF4136;
-  top: 0;
-  left: 0;
-  z-index: 20;
-  position: absolute; }
-
-.box-2 {
-  background: #01FF70;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 10; }
-
-.content-p {
-  position: absolute;
-  z-index: 40;
-  border: 4px solid #FFDC00;
-  text-align: center;
-  width: 0 auto; }
-
 #features {
   background: #efefef;
   text-align: center;
@@ -6806,12 +6729,6 @@ body {
   width: 100%;
   left: 0; }
 
-body {
-  overflow-x: hidden; }
-
-html {
-  height: 100%; }
-
 #header {
   background-size: cover;
   height: 100vh;
@@ -6822,14 +6739,16 @@ html {
   #header img {
     margin-top: 10%;
     max-width: 500px;
-    width: 100%;
-    border: solid thin red; }
+    width: 100%; }
   #header article {
     width: 60%;
     margin: 10% auto; }
   #header h1 {
     margin-bottom: 10px;
     color: white; }
+
+.navbar {
+  z-index: 50; }
 
 h1 {
   font-size: 2.5em; }
@@ -6873,7 +6792,8 @@ a.download {
   min-height: 100%; }
 
 .pimg2 {
-  min-height: 400px; }
+  min-height: 400px;
+  margin-top: 80px; }
 
 .pimg3 {
   background-image: url("../img/bg3.jpg");
@@ -6924,6 +6844,9 @@ a.download {
     list-style: none; }
   #brands ul li img {
     width: 100%; }
+
+.showcase-l img {
+  height: 300px; }
 
 @media (max-width: 768px) {
   body {

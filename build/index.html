@@ -14,15 +14,15 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
+      <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#wrapper">Split Screen <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link" href="#features">Features</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
+          <a class="nav-link" href="#showcase">Showcase</a>
         </li>
         <li class="nav-item">
           <a class="nav-link disabled" href="#">Disabled</a>
@@ -31,47 +31,13 @@
     </div>
   </nav>
   
-  <header class="cont">
-    <div class="box-1"></div>
-    <div class="box-2">
-      <video src="assets/img/code.mov" autoplay="true" 
-        loop="true"></video>
-    </div>
-    <div class="">
-      <div class="content-p">
-        <h1>content here</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas obcaecati possimus animi quibusdam, numquam veniam et magni dicta adipisci quasi!</p>
-      </div>
-    </div>
-  </header>
-
-  <!-- <header class="v-header cont">    
-      <div class="fullscreen-video-wrap">
-        <video src="assets/img/code.mov" autoplay="true" 
-        loop="true"></video>
-      </div>
-      <div class="header-overlay"></div>
-      <div class="header-content">            <h1>Main Headline</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sint quod exercitationem error facilis. Nesciunt!</p>
-        <a href="#" class="btn btn-primary">Read More</a>
-      
-      </div>        
-    
-  </header>    -->
+  
   
 
   <section id="header" class="pimg1">
     
     <div class="wrapper">
-      <!-- <nav>
-        <ul class="main-nav">
-          <li><a href="#">Logo HERE</a></li>
-          <li><a href="#">Features</a></li>
-          <li><a href="#">Press</a></li>
-          <li><a href="#" class="download">Link</a></li>
-        </ul>
-      </nav> -->
-      
+            
       <article>
         <h1>Web App Landing Page</h1>
 
@@ -128,7 +94,8 @@
   <section id="features">
     <div class="wrapper">
       <h2>Features that rock</h2>
-        <div class="cards">
+
+        <div class="row cards">
           <div class="feature-card truck">
             <img src="assets/img/truck.svg" alt="">
             <h3>Main Headline</h3>
@@ -148,20 +115,33 @@
       </div>
   </section>
 
-  <div class="pimg2">
-    <div class="ptext">
-      <span class="border">
-        Image Two Text
-      </span>
+  <div id="showcase" class="pimg2">
+    <div class="wrapper">
+      <div class="row">
+        <div class="col-md-6 col-sm-6">
+          <div class="showcase-l">
+            <img src="assets/img/mac.png" alt="">
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-6">
+          <div class="showcase-r">
+            <h1>headline text</h1>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi enim iure totam, eos molestiae labore. Recusandae numquam reprehenderit optio vitae.</p>
+
+          </div>
+          <a href="" class="btn btn-primary">Read more</a>
+        </div>
+      </div>
     </div>
   </div>
   
 
   <section class="section section-dark">
-    <div class="wrapper">
+    <div class="container">
       <article>
-        <h1>Section Two Parallax Effects</h1>
+        <h1>Testimonial</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias illum consequuntur, nisi quis voluptatem repellendus! Ipsa animi, blanditiis similique asperiores omnis ab repellendus.  labore.</p>
+        <p class="customer">- John Doe</p>
       </article>
     </div>
   </section>
