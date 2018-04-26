@@ -6738,7 +6738,6 @@ html {
 #header {
   background-size: cover;
   height: 100vh;
-  max-height: 55vw;
   color: white;
   text-align: center;
   overflow: hidden; }
@@ -6750,6 +6749,9 @@ html {
   #header article {
     width: 60%;
     margin: 10% auto; }
+  @media (max-width: 768px) {
+    #header article {
+      width: 100%; } }
   #header h1 {
     margin-bottom: 10px;
     color: white; }
