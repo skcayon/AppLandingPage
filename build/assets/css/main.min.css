@@ -6673,7 +6673,7 @@ hr {
   background: #efefef;
   text-align: center;
   position: relative;
-  height: 600px; }
+  padding-bottom: 50px; }
   #features:after {
     bottom: 0;
     position: absolute;
@@ -6694,23 +6694,23 @@ hr {
   grid-gap: 30px; }
 
 .feature-card {
-  background: white;
   padding: 30px;
   box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.2); }
-  .feature-card h3 {
-    margin: 10px 0 0; }
   .feature-card img {
-    height: 100px;
-    margin-bottom: 20px; }
+    height: 100px; }
 
 .truck {
-  border-top: 3px solid #7FDBFF; }
+  border-top: 5px solid #7FDBFF; }
 
 .shoe {
-  border-top: 3px solid #3D9970; }
+  border-top: 5px solid #3D9970; }
 
 .device {
-  border-top: 3px solid #FF851B; }
+  border-top: 5px solid #FF851B; }
+
+.card img {
+  height: 100px;
+  margin-bottom: 20px; }
 
 .flex-video {
   height: 0;
@@ -6729,6 +6729,12 @@ hr {
   width: 100%;
   left: 0; }
 
+body {
+  overflow-x: hidden; }
+
+html {
+  height: 100%; }
+
 #header {
   background-size: cover;
   height: 100vh;
@@ -6739,16 +6745,14 @@ hr {
   #header img {
     margin-top: 10%;
     max-width: 500px;
-    width: 100%; }
+    width: 100%;
+    border: solid thin red; }
   #header article {
     width: 60%;
     margin: 10% auto; }
   #header h1 {
     margin-bottom: 10px;
     color: white; }
-
-.navbar {
-  z-index: 50; }
 
 h1 {
   font-size: 2.5em; }
@@ -6792,8 +6796,7 @@ a.download {
   min-height: 100%; }
 
 .pimg2 {
-  min-height: 400px;
-  margin-top: 80px; }
+  min-height: 400px; }
 
 .pimg3 {
   background-image: url("../img/bg3.jpg");
@@ -6834,7 +6837,6 @@ a.download {
 #brands ul {
   margin: 0;
   padding: 20px 0;
-  background: white;
   display: grid;
   grid-template-columns: repeat(6, auto); }
   @media only screen and (max-width: 550px) {
@@ -6845,8 +6847,15 @@ a.download {
   #brands ul li img {
     width: 100%; }
 
+#showcase {
+  padding-bottom: 50px; }
+
 .showcase-l img {
-  height: 300px; }
+  min-height: 300px; }
+
+.showcase-r {
+  margin-top: 80px;
+  text-align: center; }
 
 @media (max-width: 768px) {
   body {

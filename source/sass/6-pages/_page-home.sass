@@ -1,3 +1,8 @@
+body
+  overflow-x: hidden
+html
+  height: 100%
+
 #header
   //background: url("../img/hero-bg.jpg")no-repeat
   background-size: cover
@@ -6,12 +11,13 @@
   color: white
   text-align: center
   overflow: hidden
-
+  
   img
     margin-top: 10%
     max-width: 500px
     width: 100%
-    
+    border: solid thin red
+
   article
     width: 60%
     margin: 10% auto
@@ -21,8 +27,6 @@
     color: white
 
 //end of header
-.navbar
-  z-index: 50
 h1
  font-size: 2.5em
 
@@ -71,7 +75,6 @@ a.download
 .pimg2
   // background-image: url("../img/bg2.jpg")
   min-height: 400px
-  margin-top: 80px
 
 .pimg3
   background-image: url("../img/bg3.jpg")
@@ -111,7 +114,7 @@ a.download
 #brands ul
   margin: 0
   padding: 20px 0
-  background: white
+  //background: $white
   display: grid
   grid-template-columns: repeat(6, auto)
 
@@ -124,9 +127,14 @@ a.download
   li img
     width: 100%
 
+#showcase
+  padding-bottom: 50px;
 .showcase-l
   img
-    height: 300px
+    min-height: 300px
+.showcase-r
+  margin-top: 80px
+  text-align: center
 
 // media query
 @media (max-width:768px)
