@@ -71,4 +71,14 @@ $(function() {
       }
     }
   });
+  $(window).on('scroll', function(){
+    if ($(window).scrollTop()){
+      $('nav').addClass('bg-light')
+      //$('.bg-light').css('transition','opacity all 0.5s ease')
+    }
+    else{
+      $('nav').removeClass('bg-light')
+      //$('.bg-light').css('transition','opacity all 0.5s ease')      
+    }
+  });
 });

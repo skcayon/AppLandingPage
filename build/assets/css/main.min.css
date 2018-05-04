@@ -6669,6 +6669,17 @@ hr {
     transform: skew(30deg);
     margin-left: 1000px; }
 
+.bg-light {
+  padding: 10px 50px;
+  transition: all 0.1s ease;
+  -webkit-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+    -moz-transition--o-transition: all 0.1s ease; }
+  @media (max-width: 767px) {
+    .bg-light {
+      background-color: #f8f9fa !important;
+      transition: opacity all 0.1s ease; } }
+
 #features {
   background: #efefef;
   text-align: center;
@@ -6860,11 +6871,11 @@ a.download {
   text-align: center; }
 
 @media (max-width: 768px) {
-  body {
-    font-size: 65%; } }
+  .content-wrap {
+    font-size: 55%; } }
 
 @media (max-width: 568px) {
-  body {
-    font-size: 65%; }
+  content-wrap {
+    font-size: 55%; }
   .pimg1, .pimg2, .pimg3 {
     background-attachment: scroll; } }
